@@ -65,6 +65,9 @@ TARGET_NO_BOOTLOADER := true
 # Build libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
+# Broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Camera
 TARGET_CAMERA_BOOTTIME_TIMESTAMP := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
