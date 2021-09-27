@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Ancient stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 PRODUCT_NAME := ancient_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
